@@ -1,0 +1,324 @@
+body{
+    background-color: #F6C58E;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin-top: 60px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+header .welcom-section-title{
+    display:flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px 20px;
+   background-color: #35544D;
+   border-radius: 10px;
+}
+  a, .btn {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  a:hover, .btn:hover {
+    background-color: #A63A2B; /* Rojo oscuro para hover */
+  }
+  section {
+    background-color: #87A398; /* Verde menta */
+    padding: 40px;
+  }
+  footer {
+    background-color: #35544D; /* Verde oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+#nav-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+    background-color: #35544D;
+    height:40px;
+}
+#nav-bar ul{
+    display:flex;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    justify-content: space-around;
+    width:50%;
+}
+#nav-bar li{
+    margin:0 10px;
+    text-align: center;
+}
+#nav-bar a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0px;
+    transition: background-color 0.3s ease;
+}
+.language-switcher{
+    display:inline-block;
+    gap:10px;
+    padding-right: 40px;;
+}
+.language-switcher img{
+   width: 30px;
+   height: 20px;
+   cursor: pointer;
+}
+#works-section{
+    background-color: #35544D;
+    padding: 40px 20px;
+}
+#works-section h2{
+    text-align: center;
+    color:white;
+    padding:5px 0;
+    background-color:#87A398;
+    padding:15px;
+    margin:0;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+.project{
+    background-color:#F6C58E;
+    border:2px solid #35544D;
+    padding:20px;
+    text-align:center;
+    border-radius: 10px;
+    transition:transform 0.3s ease;
+}
+.project img{
+    max-width: 100%;
+    height:auto;
+    border-bottom: 2px solid #35544D;
+    margin-bottom:15px;
+}
+.project h3{
+    color:#D44B3B;
+    font-size:1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+.project:hover p{
+    color:white;
+    transform:scale(1.2);
+}
+.project:hover{
+    background-color: #A63A2B;
+}
+.btn {
+    display: inline-block;
+    background-color: #35544D;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: auto;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #A63A2B;
+  }
+
+  h1{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .start-section p{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  #start-section{
+    background-image:url('img/background_start_section.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 100px 20px;
+  }
+  #start-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+    z-index: 1; 
+}
+#start-section h1, #start-section p {
+    position: relative;
+    z-index: 2; 
+    color: white; 
+}
+.welcom-section-title h2{
+    text-align: center;
+    color:white;
+}
+.welcom-section-title{
+    background-color: #35544D;
+    padding:15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+#welcome-section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px;
+    text-align: center;
+    background-color: #87A398; 
+  }
+  .welcom-section-title {
+    width: 100%; 
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+  .me-text, .me-img {
+    width: 100%; 
+    display: flex;
+    justify-content:center;
+  }
+  .me-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .works-section p{
+    color:#35544D;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .contact-section-header h2{
+    text-align: center;
+    color: white;
+    background-color: #35544D;
+    padding:15px;
+    border-radius: 10px;
+  }
+.contact-links{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); 
+  gap: 20px;
+  justify-items: center;
+  padding: 20px 0;
+}
+.contact-links a{
+    text-decoration: none;
+    color:inherit;
+    font-size: 2.5rem;
+    transition: transform 0.3s ease;
+}
+.contact-links a:hover{
+    transform:scale(1.2)
+}
+nav{
+    position: fixed;
+    top: 0;  */
+    left: 0;
+    width: 100%; 
+    padding: 10px 0;
+    z-index: 1000; 
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px; /* Distancia desde la parte inferior de la pantalla */
+    right: 20px;  /* Distancia desde el borde derecho */
+    background-color: #35544D; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    display: none; /* El botón está oculto por defecto */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-to-top:hover {
+    background-color: #A63A2B; /* Cambia el color al pasar el ratón */
+  }
+  .works-details{
+    background-color: #87A398;
+    padding:20px
+  }
+  .works-details h1{
+    background-color: #35544D;
+    border-radius: 10px;
+    width:auto
+  }
+
+  article img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%;
+    border-radius: 10px;
+    width:60%;
+    border-color: #87A398;
+    align-items: center;
+  }
+  article div {
+    text-align: center; 
+}
+article p {
+    text-align: justify; 
+    text-align-last: center; 
+    margin: 0 auto; 
+    max-width: 95%; 
+    line-height: 1.5; 
+    text-indent: 2em;
+}
+article h2{
+  color:white;
+    text-align: center;
+    background-color: #35544D;
+    border-radius: 10px;
+    width: 95%;
+    padding:10px;
+    
+}
+  @media (max-width: 768px) {
+    .proyectos-grid {
+      grid-template-columns: 1fr; 
+    }
+    #welcome-section {
+    flex-direction: column;
+ }
+      
+    .me-text, .me-img {
+          flex-direction: column; 
+          width:100%
+        }
+    .works-section .projects-grid{
+        grid-template-columns: 1fr;
+    }
+    .contact-links {
+        grid-template-columns: repeat(3, 1fr); /* 3 íconos por fila en pantallas pequeñas */
+      }
+      article img {
+        width:70%;
+ =
+    
+  }
+ 
